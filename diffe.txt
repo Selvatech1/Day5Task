@@ -1,0 +1,19 @@
+window Object:
+
+The window object is the top-level object in the browser's Document Object Model (DOM) hierarchy.
+It represents the browser window or tab and provides access to various properties and methods for controlling and interacting with the window and its content.
+You can access properties like window.location for the current URL, window.innerWidth and window.innerHeight for the viewport dimensions, and more.
+It provides global functions, such as setTimeout and setInterval, for handling asynchronous operations.
+You can also access the document object from the window, as window.document or simply document.
+screen Object:
+
+The screen object represents the user's screen or monitor and provides information about the user's display properties.
+It offers properties like screen.width and screen.height to get the screen's resolution, screen.availWidth and screen.availHeight to get the available screen space (excluding taskbars), and screen.colorDepth for color depth.
+You can use the screen object to adapt the content or layout of your web page based on the user's screen size and capabilities.
+document Object:
+
+The document object represents the content of the current web page and is a part of the DOM.
+It allows you to access and manipulate the structure and content of the HTML document.
+You can access elements within the document using methods like getElementById, querySelector, or getElementsByTagName.
+It provides access to events and allows you to create, modify, or delete elements within the page.
+The document object is mainly used for client-side scripting, such as handling user interactions, updating the content, and working with the Document Object Model.
